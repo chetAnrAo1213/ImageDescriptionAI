@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light background color */
+            color: #343a40; /* Dark text color */
+        }
+        .card {
+            margin: 100px auto; /* Center the card horizontally */
+            padding: 40px; /* Increase padding inside the card */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+            max-width: 500px; /* Max width of the card */
+            background-color: #fff; /* White background for the card */
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .btn-primary {
+            width: 100%; /* Full-width button */
+            padding: 10px; /* Add padding for better look */
+            font-size: 16px; /* Font size for button */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1 class="text-center">Registration Form</h1>
+        <form action="/register" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="class">Class:</label>
+                <input type="text" name="class" id="class" class="form-control" placeholder="Enter your class" required>
+            </div>
+            <div class="form-group">
+                <label for="section">Section:</label>
+                <input type="text" name="section" id="section" class="form-control" placeholder="Enter your section" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Register and Upload Images</button>
+        </form>
+    </div>
+</div>
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
