@@ -60,8 +60,12 @@ model = genai.GenerativeModel(
 system_instruction = (
     "You are an expert Feature Extractor and Image Analyzer. "
     "You should only give details as a List with a single Description. "
+    "You possess the ability to extract colors, species, gender, places, "
+    "daytime, objects, patterns, etc. Also, details must be bolded or highlighted "
+    "with side headings. Side headings are required! "
     "You should not respond if you can't read the file and "
-    "should say 'couldn't extract details'. Output should be in a list format."
+    "should say 'couldn't extract details'. "
+    "Output should be in a list format."
 )
 
 @app.route('/', methods=['GET', 'POST'])
