@@ -1,4 +1,0 @@
-flask
-pymongo 
-google-generativeai
-gunicorn
