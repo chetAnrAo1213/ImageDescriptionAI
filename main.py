@@ -7,7 +7,7 @@ app = Flask(__name__)
 UPLOAD_FOLDER = '/tmp/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-genai.configure(api_key="AIzaSyAlKyF3PpDiNc4KUAr7uKDA-v7HtDQcpDA")
+genai.configure(api_key="AIzaSyCHKoaSA0xF0VM8twqIJFwI--wNqdjDRZQ")
 
 def image_format(image_path):
     img = Path(image_path)
