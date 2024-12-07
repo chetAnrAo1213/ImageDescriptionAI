@@ -2,6 +2,9 @@
 A Sample project for utilising the functionalities of the GoogleGemini Ai, to provide detailed description of an Image File.
 An report will be generated through Ai and rendred on html using flask providing colors, objects, patterns, text, data, visible refernces.
 ________________________________________________
+# Deployment
+image-description-ai-six.vercel.app
+________________________________________________
 # Project Config 
 Language :- Python(3V).
 
