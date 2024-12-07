@@ -3,7 +3,7 @@ A Sample project for utilising the functionalities of the GoogleGemini Ai, to pr
 An report will be generated through Ai and rendred on html using flask providing colors, objects, patterns, text, data, visible refernces.
 ________________________________________________
 # Deployment
-image-description-ai-six.vercel.app
+https://image-description-ai-six.vercel.app/
 ________________________________________________
 # Project Config 
 Language :- Python(3V).
